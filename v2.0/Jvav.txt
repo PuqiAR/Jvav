@@ -1,0 +1,56 @@
+-------------------------------------------JvavEula-------------------------------------------------
+****************************************此程序纯属恶搞*********************************************
+                                                            制作者:PuqiAR
+                                                        E-mail:PuqiAR@qq.com
+-----------------------------------------------------------------------------------------------------
+使用说明:
+[2022/6/30] jvav v0.01 更新
+语法&功能:
+    1.退出jvav virjaba JVM:使用 Exit()或exit()
+    2.环境信息:使用 jvav -help
+    3.版本:使用 jvav -version
+    4.运行:使用 jvav run
+    5.打印:使用 jvav print
+    6.变量:使用 jvav add variable来创建变量(全局),使用 jvav read variable来读取变量
+    7.创建目录:使用 jvav mkdir 或 jvav makedir,只能同时创建一个
+    8.创建文件:使用 jvav createfile 
+-----------------------------------------------------------------------------------------------------
+[2022/6/30] jvav v1.0 更新
+语法&功能:
+    1.退出jvav virjaba JVM:使用 Exit()或exit()
+    2.环境信息:使用 jvav -help
+    3.版本:使用 jvav -version
+    4.运行:使用 jvav run
+    5.打印:使用 jvav print
+    6.变量:使用 jvav add variable来创建变量(全局),使用 jvav read variable来读取变量,使用过jvav del variable删除变量
+    7.创建目录:使用 jvav mkdir 或 jvav makedir,只能同时创建一个
+    8.创建文件:使用 jvav createfile 
+    9.变量赋值(把一个变量赋值到另一个)使用 jvav variable assgin
+-----------------------------------------------------------------------------------------------------
+[2022/7/14] jvav v2.0 更新
+  语法&功能:
+    1.退出jvav virjaba JVM:使用 Exit()或exit()
+    2.环境信息:使用 jvav -help
+    3.版本:使用 jvav -version
+    4.运行:使用 jvav run
+    5.打印:使用 jvav print
+    6.变量:使用 jvav add variable来创建变量(全局),使用 jvav read variable来读取变量
+    7.创建目录:使用 jvav mkdir 或 jvav makedir,只能同时创建一个
+    8.创建文件:使用 jvav createfile 
+    9.变量赋值(把一个变量赋值到另一个)使用 jvav variable assgin
+    重大更新:
+        1.jvav 支持编译了！！！！
+        2.启动编译:jvav compile ，选择编译的文件执行即可
+               jvav编译摘要
+                      (1)jvav 可执行文件后缀: ".jdl"
+                      (2)".jdl"文件可以使用VisualStudioCode(推荐)或任何一个记事本编辑
+                      (3)jvav 为半强半弱语言!!!!!
+                      (4)jvav 可执行文件每条语句占1行,没有"{"、"}"、";"  !!!!!
+                      (5)语法、语句暂时和控制台一样(悄悄地说:可能以后会有流程控制语句哦)    
+                      语法语句具体解析:
+                                    1.系统级命令:jvav -help, jvav -version
+                                    2.输出:jvav print +输出内容(不区分内容类型),如:jvav print abc(因为不区分类型所以不用加双引号变string类)
+                                    3.运行文件:jvav run + 待运行的文件
+                                    4.创建变量: jvav add variable +变量名+数值,在jvav里变量是不区分类型的,都是string(文本型)如 jvav add variable test abc(创建名为test,值为abc的变量).读取变量:使用jvav read variable + 变量名，会直接打印出来变量值.删除变量:jvav del variable +变量名
+
+       
